@@ -3,7 +3,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	/*background-color: #ebebeb;*/
-	background-color: #ffffff;
+	background-color: #e3e3e3 !important;
 }
 
 /* Typography */
@@ -28,7 +28,7 @@ h1 small {
 
 h2 {
 	/*font-size: 36px;*/
-	color: #330333;
+	color: #330333 !important;
 }
 
 	.hero-right h2 {
@@ -36,7 +36,7 @@ h2 {
 	}
 
 h3 {
-	color: #330033;
+	color: #33C2DF !important;
 }
 
 .hero h3 {
@@ -56,13 +56,32 @@ p.rsvp {
 	font-style: italic;
 }
 
+/* Container */
+.container {
+  background: #ffffff !important;
+  width: 600px !important;
+}
+
+
+/* Form Edits*/
+.form {
+  margin: 20px 0px 0px 50px !important;
+  padding:  -10px 0px 10px 10px;
+  font-size: 120%;
+  
+}
+
 /* Button and Labels */
 
 .btn-primary,
 .btn-primary:hover {
-	background-color: #33c2df;
+	background-color: #33c2df !important;
+    font-size: 110%;
 	border: none;
 	font-weight: bold;
+    border-radius: 2px !important;
+    padding: 10px 100px;
+    margin: 10px 0px 60px -50px;
 }
 
 .label-primary {
@@ -173,12 +192,13 @@ p.rsvp {
 /* Footer */
 
 .footer {
-	background-color: #303;
-	color: #fff;
+	background-color: #330033 !important;
+	color: #303;
 }
 
 	.footer .bold {
 		font-weight: bold;
+        color: ffffff;
 	}
 
 	.footer .light {
@@ -193,6 +213,7 @@ p.rsvp {
 		border-top: 1px solid rgba(255, 255, 255, 0.3);
 	}
 
+
 .footer-container {
 	margin-bottom: 75px;
 }
@@ -201,6 +222,20 @@ p.rsvp {
 		margin-top: 25px;
 		margin-bottom: 25px;
 	}
+
+.footer > p:first-child {
+    float: left;
+    text-align: left;
+    width: 33.3%; }
+
+.footer > p:nth-child(2) {
+    float: left;
+    text-align: center;
+    width: 33.4%; }
+
+.footer > p:last-child {
+    float: right;
+    text-align: right;
 
 /* Responsive Stlyes */
 
