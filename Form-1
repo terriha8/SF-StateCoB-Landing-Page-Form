@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Landing Page Template</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="_css/custom.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:300,300i,400,400i,700">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row hero hero-flex">
+            <div class="col-xs-12 col-sm-12 col-md-5 hero-padding hero-right">
+                <h2>Attend an Info Session</h2>
+                <hr class="hidden-xs hidden-sm" />
+                <p class="hidden-xs">Take an informal tour of our downtown campus. Learn about program goals, curriculum, structure, and the admission process. You will have a chance to ask questions about the program and speak with an adviser.</p>
+                <h3>Upcoming Sessions</h3>
+                <p class="rsvp">RSVP today. Seating is limited.</p>
+                <div class="event">Thursday Aug 25, 2016
+                    <br /> 5:30 pm &#8226; MBA
+                </div>
+                <div class="event">Tuesday Sep 13, 2016
+                    <br /> 5:30 pm &#8226; EMBA
+                </div>
+                <a class="btn btn-primary btn-lg" href="#" role="button">RSVP for an Info Session</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 national">
+                <h2>Build your legacy.</h2>
+                <p class="lead">Earn your MBA.</p>
+            </div>
+        </div>
+    </div>
+        <!-- X rank -->
+    <!-- X rank-bg -->
+    <div class="container-fluid footer">
+        <div class="container text-center footer-container">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 text-center">
+                    <p class="large">Build your career though an MBA program at San Francisco State University</p>
+                    <a class="btn btn-primary btn-lg">RSVP for an Info Session</a>
+                </div>
+            </div>
+            <hr />
+            <div>
+                <img height="75" width="75" src="https://github.com/tomkelleher/SF-State-CoB-Landing-Page-Template/blob/master/_img/SFState.gif?raw=true" />
+            </div>
+            <div>
+                <p class="bold">San Francisco State University</p>
+                <p class="light">A California State University Campus</p>
+            </div>
+            <div>
+                <p class="bold">Downtown Campus</p>
+                <p class="light">Graduate Business Programs</p>
+                <p class="light">835 Market Street, Suite 600</p>
+                <p class="light">San Francisco, CA 94103</p>
+            </div>
+            <div>
+                <p class="bold">Mon &ndash; Fri 10 a.m.&ndash;7 p.m.</p>
+                <p><span class="light">Email:</span> mba@sfsu.edu</p>
+                <p><span class="light">Phone:</span> (415) 817-4300</p>
+                <p><span class="light">Fax:</span> (415) 817-4340</p>
+            </div>
+        </div>
+    </div>
+    <!-- X footer -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
