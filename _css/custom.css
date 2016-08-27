@@ -63,6 +63,12 @@ p.rsvp {
 }
 
 
+/* Progress Bar */
+.progress bar {
+  margin: 20px 50px 50px 50px;
+  padding: 5px 20px 20 px 20;
+}
+
 /* Form Edits*/
 .form {
   margin: 20px 0px 0px 50px !important;
@@ -194,6 +200,7 @@ p.rsvp {
 .footer {
 	background-color: #330033 !important;
 	color: #303;
+  padding: 20px;
 }
 
 	.footer .bold {
