@@ -1,4 +1,4 @@
-/* Custom Styles for College of Business Landing Page Template */
+/* Custom Styles for College of Business Pardot Form Template */
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -49,25 +49,17 @@ p.rsvp {
 	font-style: italic;
 }
 
-/* Container */
-.container {
-  background: #ffffff !important;
-  width: 600px !important;
+/* Header */
+.form-header {
+	background-color: #e3e3e3;
+	margin: 0 -15px 15px;
+	padding-top: 10px;
 }
 
-
-/* Progress Bar */
-.progress bar {
-  margin: 20px 50px 50px 50px;
-  padding: 5px 20px 20 px 20;
-}
-
-/* Form Edits*/
+/* Form */
 .form {
-  margin: 20px 0px 0px 50px !important;
-  padding:  -10px 0px 10px 10px;
-  font-size: 120%;
-  
+	max-width: 600px;
+	background-color: #fff;
 }
 
 /* Button and Labels */
@@ -103,10 +95,13 @@ p.rsvp {
 /* Footer */
 
 .footer {
-	background-color: #330033 !important;
-	color: #303;
+	background-color: #330033;
+	color: #fff;
     padding: 20px;
     width: 100%;
+
+    position: absolute;
+    bottom: 0;
 }
 
 	.footer .bold {
@@ -126,18 +121,18 @@ p.rsvp {
 		border-top: 1px solid rgba(255, 255, 255, 0.3);
 	}
 
-
-.footer-container {
-	margin-bottom: 75px;
-}
-
-	.footer-container div {
-		margin-top: 25px;
-		margin-bottom: 25px;
+	.footer img {
+		float: left;
+		margin-right: 10px;
 	}
 
+	.footer ul {
+		margin-top: 5px;
+	}
 
-
+	.footer a {
+		color: #fff;
+	}
 
 /* Responsive Styles */
 
